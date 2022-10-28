@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <main>
+        <h1>Lorem</h1>
+        <form action="./success.html" method="post">
+            <h2>Sign up with email</h2>
+            <div class="form-field">
+                <label for="f-name">First name</label>
+                <input id="f-name" type="text" name="f-name" required>
+            </div>
+            <div class="form-field">
+                <label for="l-name">Last name</label>
+                <input id="l-name" type="text" name="l-name" required>
+            </div>
+            <div class="form-field">
+                <label for="tel-no">Tel No</label>
+                <input id="tel-no" type="tel" name="tel-no" required>
+            </div>
+            <div class="form-field">
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" required>
+            </div>
+            <div class="form-field">
+                <label for="password">Password</label>
+                <input id="password" type="password" name="password" min="8" required>
+            </div>
+            <div class="form-field">
+                <label for="gender">Gender</label>
+                <select name="gender" id="gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="null">Prefer not to say</option>
+                </select>
+            </div>
+            <div class="form-field">
+                <label for="birth">Date of birth</label>
+                <input id="birth" type="date" name="birth" required>
+            </div>
+            <div class="form-field">
+                <label for="color">Favourite color</label>
+                <input id="color" type="color" name="color" >
+            </div>
+            <div class="form-field">
+                <a href="./success.html"><input type="submit" value="Join Lorem"></a>
+            </div>
+            <p class="link-text">Already a member? <a href="./login.html">Sign in</a></p>
+        </form>
+    </main>
+  <script src="script.js"></script>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.15rem;
+}
+
+.form-text h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.7rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+form {
+    width: 32rem;
+}
+
+label {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    margin-top: 1rem;
+}
+
+input, textarea {
+    background-color: gray;
+    margin: .3rem 0;
+    padding: .31rem .5rem;
+    width: 100%;
+    min-width: 20rem;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: .2rem;
+    color: white;
+}
+
+input[type="submit"] {
+    font-size: 1.2rem;
+    background-color: blue;
+}
+
+input[type="submit"]:hover {
+    background-color: darkblue;
+    font-weight: bold;
+    cursor: pointer;
+}

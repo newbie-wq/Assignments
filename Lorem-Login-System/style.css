@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #eeeeee;
+}
+
+main {
+    padding: 4rem 12rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-bottom: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: -2px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+}
+
+a:hover {
+    color: darkblue;
+}
+
+form {
+    background: white;
+    padding: 2.8rem 2rem;
+    margin: 0 auto;
+    width: 42rem;
+}
+
+form h2 {
+    margin-bottom: 2.5rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1.4px;
+}
+
+.form-field {
+    margin: 2.5rem auto 1rem;
+    width: 80%;
+    min-width: 22.5rem;
+}
+
+form label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    font-size: .85rem;
+    font-weight: bolder;
+    color: #444;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+form input, form select {
+    width: 100%;
+    padding: .7rem;
+    border: 1px solid black;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: white;
+    font-size: 1.4rem;
+    border: none;
+    cursor: pointer;
+}
+
+.link-text {
+    text-align: center;
+    color: #444;
+}
+
+i {
+    color: green;
+}
+
+.success-head {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.success-text {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
