@@ -1,2 +1,2 @@
-# Assingments
-Zuri week 3 to 5 assingments
+# Assignments
+Zuri week 3 to 5 assignments
